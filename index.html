@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de François Peterson : étudiant en informatique et en gestion des affaires, entrepreneur à Port-au-Prince, Haïti.">
+  <title>François Peterson | Portfolio</title>
+
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+
+  <!-- ============ EN-TÊTE ET NAVIGATION ============ -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#accueil">François Peterson</a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu">
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="visually-hidden">Ouvrir ou fermer le menu</span>
+      </button>
+
+      <nav class="nav" id="menu" aria-label="Navigation principale">
+        <ul class="nav-list">
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#a-propos">À propos</a></li>
+          <li><a href="#formation">Formation</a></li>
+          <li><a href="#projets">Projets et expériences</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ ACCUEIL ============ -->
+    <section class="hero" id="accueil">
+      <div class="container hero-inner">
+        <img class="hero-photo"
+             src="images/WhatsApp Image 2026-10-07 at 04.45.58.jpeg"
+             alt="Portrait de François Peterson"
+             width="300" height="300">
+
+        <div class="hero-text">
+          <h1>François Peterson</h1>
+          <p class="hero-role">Étudiant en informatique et en gestion des affaires</p>
+          <p class="hero-meta">Entrepreneur · Port-au-Prince, Haïti</p>
+          <p class="hero-tagline">Je combine technologie et gestion pour créer des solutions utiles, du code à l’entreprise.</p>
+          <a class="btn" href="#contact">Me contacter</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ À PROPOS ============ -->
+    <section class="section" id="a-propos">
+      <div class="container">
+        <h2 class="section-title">À propos</h2>
+        <div class="about-text">
+          <p>Je suis étudiant à Port-au-Prince et je poursuis deux formations en parallèle : l’informatique à l’ESIH et la gestion des affaires à l’ENST. Cette double formation me permet de voir un problème à la fois comme développeur et comme gestionnaire.</p>
+          <p>Je suis aussi entrepreneur, passionné d’éducation et de transmission : j’accompagne des élèves et j’encadre des enfants. J’aime apprendre en construisant des projets concrets.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FORMATION ============ -->
+    <section class="section section-alt" id="formation">
+      <div class="container">
+        <h2 class="section-title">Formation</h2>
+
+        <ul class="cards cards-formation">
+          <li class="card">
+            <!-- À faire : remplacer par le vrai nom de votre image -->
+            <img class="card-img" src="images/formation-informatique.jpg" alt="Génie informatique" width="400" height="300">
+            <div class="card-body">
+              <h3>Génie informatique</h3>
+              <p>ESIH, École Supérieure d’Infotronique d’Haïti</p>
+            </div>
+          </li>
+
+          <li class="card">
+            <!-- À faire : remplacer par le vrai nom de votre image -->
+            <img class="card-img" src="images/formation-gestion.jpg" alt="Gestion des affaires" width="400" height="300">
+            <div class="card-body">
+              <h3>Gestion des affaires</h3>
+              <p>ENST, École Nationale Supérieure de Technologie</p>
+            </div>
+          </li>
+
+          <li class="card">
+            <img class="card-img" src="images/1791293715665.jpg" alt="DRILL" width="400" height="300">
+            <div class="card-body">
+              <h3>DRILL</h3>
+              <!-- Ajoutez ici une courte description -->
+            </div>
+          </li>
+
+          <li class="card">
+            <img class="card-img" src="images/IMG-20261006-WA0010.jpg" alt="DRILL" width="400" height="300">
+            <div class="card-body">
+              <h3>DRILL</h3>
+              <!-- Ajoutez ici une courte description -->
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ PROJETS ET EXPÉRIENCES ============ -->
+    <section class="section" id="projets">
+      <div class="container">
+        <h2 class="section-title">Projets et expériences</h2>
+
+        <div class="cards cards-projets">
+          <article class="card">
+            <div class="card-body">
+              <h3>Klinova</h3>
+              <p class="card-role">Fondateur et PDG</p>
+              <p>Entreprise de produits d’entretien ménager.</p>
+              <!-- À faire : remplacer # par l’adresse du site de Klinova -->
+              <a class="btn btn-small" href="#">Visiter le site</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-body">
+              <h3>Tutorat</h3>
+              <p class="card-role">Accompagnement scolaire</p>
+              <p>Accompagnement d’élèves de niveau baccalauréat.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <h2 class="section-title">Me contacter</h2>
+        <p class="contact-intro">Une idée, un projet, une collaboration ?</p>
+
+        <address class="contact-list">
+          <div class="contact-item">
+            <h3>Adresse</h3>
+            <p>Plaine du Cul-de-Sac, Haïti</p>
+          </div>
+          <div class="contact-item">
+            <h3>Téléphone</h3>
+            <p><a href="tel:+50956158135">+509 56 15 81 35</a></p>
+          </div>
+          <div class="contact-item">
+            <h3>Email</h3>
+            <p><a href="mailto:francoispeterson2007@gmail.com">francoispeterson2007@gmail.com</a></p>
+          </div>
+        </address>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ PIED DE PAGE ============ -->
+  <footer class="site-footer">
+    <p>&copy; 2026 François Peterson. Tous droits réservés.</p>
+  </footer>
+
+</body>
+</html>
